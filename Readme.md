@@ -12,7 +12,7 @@ To clone the repository alongside the engine use the following command
 git clone --recurse-submodules -j8 https://github.com/LegioGroup/LegioGameApp.git
 ```
 
-To open the repo just go to the directory and type the following command
+To open the repo with Visual Studio Code just go to the directory and type the following command
 ```
 code .
 ```
