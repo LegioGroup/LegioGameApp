@@ -4,7 +4,7 @@ project(GameApp VERSION 0.0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 
 # GameApp.exe
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/Application.cpp)
 
 # Subdirectories
 add_subdirectory(external/engine)
