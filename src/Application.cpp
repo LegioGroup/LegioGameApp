@@ -11,7 +11,12 @@ public:
 
     virtual ~Application()
     {
-        LG_APP_INFO("Application Deleted!");        
+        LG_APP_INFO("Application Deleted!");
+    }
+
+    virtual void Update(float deltaTime) override
+    {
+        LG_APP_TRACE("Application Updating!");
     }
 };
 
