@@ -16,7 +16,7 @@ public:
 
     virtual void Update(float deltaTime) override
     {
-        LG_APP_TRACE("Application Updating!");
+        LG_APP_TRACE("Application Updating at {0} FPS", 1.0f/deltaTime);
     }
 };
 
