@@ -27,6 +27,22 @@ workspace "Legio"
         "MultiProcessorCompile"
     }
 
+    newoption {
+        trigger = "gfxapi",
+        value = "API",
+        description = "Choose a particular 3D API for rendering",
+        allowed = {
+           { "opengl",    "OpenGL" },
+           { "vulkan",    "Vulkan" }
+        },
+        default = "opengl"
+     }
+
+    filter { "options:gfxapi=opengl" }
+        defines { "LG_OPENGL_API" }
+  
+    filter { "options:gfxapi=vulkan" }
+        defines { "LG_VULKAN_API" }
 
 outputdir = "%{cfg.buildcfg}_%{cfg.system}_%{cfg.platform}"
 
