@@ -51,6 +51,7 @@ group "Dependencies"
     include "external/engine/external/GLFW"
     include "external/engine/external/glad"
     include "external/engine/external/imgui"
+    include "external/engine/external/assimp"
 group ""
 
 include "external/engine"
