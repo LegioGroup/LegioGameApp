@@ -9,7 +9,7 @@ This repository consists in a simple applications that will serve as an starting
 To clone the repository alongside the engine use the following command
 
 ```
-git clone -b --recurse-submodules -j8 https://github.com/LegioGroup/LegioGameApp.git
+git clone --recurse-submodules -j8 https://github.com/LegioGroup/LegioGameApp.git
 ```
 
 Once you've downloaded the project and the submodules run
